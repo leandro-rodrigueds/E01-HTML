@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+
+        <fieldset>
+
+            <legend>Dados pessoais</legend>
+            
+            <label for="">Codigo:</label>
+            <input type="number" required>
+            <br>
+
+            <label for="">Nome:</label>
+            <input type="text" id="nomecompleto" class="input_padrao" required>
+            <br>
+            
+            <label for="">Senha:</label>
+            <input type="password" required>
+            <br>
+
+            <label for="">Sexo:</label>
+            <label><input type="radio" name="title" value="homem">Masculino</label>
+            <label><input type="radio" name="title" value="mulher">Feminino</label>
+            <br>
+
+            <label for="">Idade:</label>
+            <input type="number" required>
+            <br>
+
+            <legend>Cartão de Crédito</legend>
+            <select name="" id="" multiple>
+                <option value="">MasterCard</option>
+                <option value="">Visa</option>
+                <option value="">American Express</option>
+            </select>
+
+
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Dados Profissionais</legend>
+
+            <label for="mensagem">Cargo</label>
+            <select name="" id="">
+                <option value="">Analista Júnior</option>
+                <option value="">Analista Pleno</option>
+                <option value="">Analista Sênior</option>
+            </select>
+            <br>
+
+            <label for=""><input type="checkbox"> Fumante</label>
+            <br>
+            <label for=""><input type="checkbox"> Pratica Exercicios Fisicos</label>
+            <br>
+            <label for=""><input type="checkbox"> Consome bebida alcoólica</label>
+            <br>
+
+            <label for="mensagem">Experiencia Profisionais</label>
+            <br>
+            <TEXtarea cols="50" rows="8" id="mensagem" placeholder="Data Inicio/ Data Fim/ Empresa/ Cargo"></TEXtarea>></TEXtarea>
+
+        </fieldset>
+        
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Excluir">
+        
+    </form>
+</body>
+</html>
